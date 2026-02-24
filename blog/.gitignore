@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment file
+.env
+.env.backup
+
+# Laravel storage and cache
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/*.log
+/bootstrap/cache/*.php
+
+# Compiled assets
+/public/build
+/public/hot
+/public/storage
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage
+phpunit.result.cache
